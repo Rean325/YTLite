@@ -1,11 +1,11 @@
-Package: com.dvntm.ytlite
-Name: YTLite
-Depends: mobilesubstrate
-Version: 0.0.1
+Package: me.jkhsjdhjs.youtube-native-share
+Name: YouTube Native Share
+Version: 0.2.7
 Architecture: iphoneos-arm
-Description: Lightweight YouTube Enhancer
-Maintainer: dvntm
-Author: dvntm
+Description: Bypass YouTubes own share sheet and use the system activity view instead.
+ Avoids requesting a source identifier (si) with your data and sharing it with other people.
+Maintainer: jkhsjdhjs
+Author: jkhsjdhjs
+Homepage: https://github.com/jkhsjdhjs/youtube-native-share
 Section: Tweaks
-Icon: https://raw.githubusercontent.com/dayanch96/icons/main/ytlite.png
-SileoDepiction: https://raw.githubusercontent.com/dayanch96/icons/main/ytlite.json
+Depends: mobilesubstrate (>= 0.9.5000)
